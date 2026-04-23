@@ -1,0 +1,18 @@
+/* CSS by Gus Guomas */
+/* Color Palatte 
+
+light faded pink = #F2D5DD
+dark pastel pink = #F2ACC6
+pastel purple = #E8C4F2
+light pastel purple = #E8DOF2
+pastel blue = #C2F2F2
+*/
+
+/* GLOBAL (base) MOBILE FIRST */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2D5DD;
+    color: #333;
+}
