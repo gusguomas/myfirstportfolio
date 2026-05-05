@@ -1,11 +1,11 @@
 /* CSS by Gus Guomas */
 /* Color Palette 
 
-light faded pink = #F2D5DD
-dark pastel pink = #F2ACC6
-pastel purple = #E8C4F2
-light pastel purple = #E8DOF2
-pastel blue = #C2F2F2
+dark purple = #4B0090
+light pink = #FFE8F0
+light brown = #ACA193
+light green = #AFC2A8
+faded rose = #F499AF
 */
 
 /* GLOBAL (base) MOBILE FIRST */
@@ -13,6 +13,51 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F2D5DD;
+    background-color: #ACA193;
     color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #AFC2A8;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    padding: 15px 20px;
+}
+
+nav a {
+    color: #4B0090;
+    text-decoration: none;
+    padding: 0.5rem;
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+
+nav a:hover {
+    background-color: #FFE8F0;
+    color: #10288C;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.image-section {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
 }
